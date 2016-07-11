@@ -1,0 +1,16 @@
+<Order>
+  <orderNum>2</orderNum>
+  <custName>jerome</custName>
+  <state>OK</state>
+  <taxRate>0.045</taxRate>
+  <typeFloor>Tile</typeFloor>
+  <area>750.0</area>
+  <costPerSqFt>3.5</costPerSqFt>
+  <laborCostPerSqFt>4.15</laborCostPerSqFt>
+  <matCost>2625.0</matCost>
+  <laborCost>3112.5000000000005</laborCost>
+  <tax>258.1875</tax>
+  <totalCost>5995.6875</totalCost>
+  <orderDate>07052016</orderDate>
+  <canceled>false</canceled>
+</Order>

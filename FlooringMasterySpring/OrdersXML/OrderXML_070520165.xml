@@ -1,0 +1,16 @@
+<Order>
+  <orderNum>5</orderNum>
+  <custName>ray</custName>
+  <state>OK</state>
+  <taxRate>0.045</taxRate>
+  <typeFloor>Carpet</typeFloor>
+  <area>600.0</area>
+  <costPerSqFt>2.25</costPerSqFt>
+  <laborCostPerSqFt>2.1</laborCostPerSqFt>
+  <matCost>1350.0</matCost>
+  <laborCost>1260.0</laborCost>
+  <tax>117.44999999999999</tax>
+  <totalCost>2727.45</totalCost>
+  <orderDate>07052016</orderDate>
+  <canceled>true</canceled>
+</Order>

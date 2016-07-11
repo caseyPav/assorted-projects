@@ -1,0 +1,16 @@
+<Order>
+  <orderNum>3</orderNum>
+  <custName>archer</custName>
+  <state>NY</state>
+  <taxRate>0.04</taxRate>
+  <typeFloor>Wood</typeFloor>
+  <area>1000.0</area>
+  <costPerSqFt>5.15</costPerSqFt>
+  <laborCostPerSqFt>4.75</laborCostPerSqFt>
+  <matCost>5150.0</matCost>
+  <laborCost>4750.0</laborCost>
+  <tax>396.0</tax>
+  <totalCost>10296.0</totalCost>
+  <orderDate>07052016</orderDate>
+  <canceled>false</canceled>
+</Order>

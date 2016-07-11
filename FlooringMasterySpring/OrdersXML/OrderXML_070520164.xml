@@ -1,0 +1,16 @@
+<Order>
+  <orderNum>4</orderNum>
+  <custName>lana</custName>
+  <state>OR</state>
+  <taxRate>0.0</taxRate>
+  <typeFloor>Laminate</typeFloor>
+  <area>2760.0</area>
+  <costPerSqFt>1.75</costPerSqFt>
+  <laborCostPerSqFt>2.1</laborCostPerSqFt>
+  <matCost>4830.0</matCost>
+  <laborCost>5796.0</laborCost>
+  <tax>0.0</tax>
+  <totalCost>10626.0</totalCost>
+  <orderDate>07052016</orderDate>
+  <canceled>false</canceled>
+</Order>

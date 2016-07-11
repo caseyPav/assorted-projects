@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+          http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+          http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+          http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+">
+    <bean id = "DAOProd" class = "com.sg.flooringmasteryspring.dao.FlooringMasteryDAOProd"/>
+    <bean id = "DAODemo" class= "com.sg.flooringmasteryspring.dao.FlooringMasteryDAODemo"/>
+    <bean id = "DAOxml" class= "com.sg.flooringmasteryspring.dao.FlooringMasteryDAOxml"/>
+    <bean id = "StateDAO" class= "com.sg.flooringmasteryspring.dao.FlooringMasteryDAOStates"/>
+    <bean id = "StateDAOxml" class= "com.sg.flooringmasteryspring.dao.FlooringMasteryDAOStatesXML"/>
+    <bean id = "ProductDAO" class= "com.sg.flooringmasteryspring.dao.FlooringMasteryDAOProducts"/>
+    <bean id = "ProductDAOxml" class= "com.sg.flooringmasteryspring.dao.FlooringMasteryDAOProductsXML"/>
+    <bean id = "UserDAOxml" class= "com.sg.flooringmasteryspring.dao.FlooringMasteryDAOUserXML"/>
+    <bean id = "ConIO" class= "com.sg.flooringmasteryspring.ui.ConsoleIO"/>    
+    <bean id = "JohnnyFive" class= "com.sg.flooringmasteryspring.FlooringMasteryController">
+        <constructor-arg ref="DAOxml"/>
+        <constructor-arg ref="FlooringUI"/>
+        <constructor-arg ref="StateDAOxml"/>
+        <constructor-arg ref="ProductDAOxml"/>
+        <constructor-arg ref="Ops"/>
+        <constructor-arg ref="AdminDAO"/>
+        <constructor-arg ref="UserDAOxml"/>       
+    </bean> 
+    <bean id = "AdminDAO" class= "com.sg.flooringmasteryspring.dao.FlooringMasteryDAOAdminMode"> 
+        <constructor-arg ref="StateDAOxml"/>
+        <constructor-arg ref="ProductDAOxml"/>
+        <constructor-arg ref="DAOxml"/>        
+    </bean>
+    <bean id = "Ops" class= "com.sg.flooringmasteryspring.ops.FlooringMasteryOps">
+        <constructor-arg ref="StateDAO"/>
+        <constructor-arg ref="ProductDAOxml"/>
+    </bean> 
+    <bean id = "Format" class= "com.sg.flooringmasteryspring.ui.FormattingUtils">
+        <constructor-arg ref="StateDAO"/>
+        <constructor-arg ref="ProductDAOxml"/>        
+    </bean>       
+    <bean id = "FlooringUI" class= "com.sg.flooringmasteryspring.ui.FlooringMasteryUI">
+        <constructor-arg ref="Format"/>
+        <constructor-arg ref="ConIO"/>
+        <constructor-arg ref="ProductDAOxml"/>
+    </bean>   
+</beans>

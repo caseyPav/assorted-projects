@@ -1,0 +1,16 @@
+<Order>
+  <orderNum>1</orderNum>
+  <custName>Sterling</custName>
+  <state>CA</state>
+  <taxRate>0.075</taxRate>
+  <typeFloor>Tile</typeFloor>
+  <area>4320.0</area>
+  <costPerSqFt>3.5</costPerSqFt>
+  <laborCostPerSqFt>4.15</laborCostPerSqFt>
+  <matCost>15120.0</matCost>
+  <laborCost>17928.0</laborCost>
+  <tax>2478.6</tax>
+  <totalCost>35526.6</totalCost>
+  <orderDate>07062016</orderDate>
+  <canceled>false</canceled>
+</Order>

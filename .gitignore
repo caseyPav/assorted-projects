@@ -1,4 +1,7 @@
+.~
+
 *.class
+
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -10,3 +13,33 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+
+
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+.nb-gradle/
+/javaOO/ConsoleIO/nbproject/
+/JUnit Drills/Arrays/JUnitArrays/nbproject/
+/JUnit Drills/JUnitDrills/nbproject/
+/javaOO/DVDLibrary/nbproject/
+/javaOO/AddressBookv2/nbproject/
+/javaOO/FlooringMasterySpring/nbproject/
+/FlooringMasterySpring/nbproject/
+/javaOO/FlooringMasterySpring/FlooringMasterySpring/nbproject/
+/SpringMVCWeb/SiteLab/nbproject/

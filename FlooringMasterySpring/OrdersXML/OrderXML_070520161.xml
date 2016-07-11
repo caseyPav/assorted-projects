@@ -1,0 +1,16 @@
+<Order>
+  <orderNum>1</orderNum>
+  <custName>Cheryl</custName>
+  <state>KY</state>
+  <taxRate>0.06</taxRate>
+  <typeFloor>Wood</typeFloor>
+  <area>1987.0</area>
+  <costPerSqFt>5.15</costPerSqFt>
+  <laborCostPerSqFt>4.75</laborCostPerSqFt>
+  <matCost>10233.050000000001</matCost>
+  <laborCost>9438.25</laborCost>
+  <tax>1180.278</tax>
+  <totalCost>20851.578</totalCost>
+  <orderDate>07052016</orderDate>
+  <canceled>false</canceled>
+</Order>
