@@ -1,0 +1,13 @@
+Snickers::1.25::10
+M&M's::1.25::10
+Hershey Bar::1.25::10
+Doritios::1.25::10
+Sun Chips::1.25::10
+Egg Salad Sandwich::3.00::10
+Chicken Salad Sandwich::3.00::10
+Coke::.75::10
+Diet Coke::.75::10
+Bottled Water::1.00::10
+winning lottery tickets::.01::0
+
+

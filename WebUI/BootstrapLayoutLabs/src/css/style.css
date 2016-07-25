@@ -1,0 +1,57 @@
+.row {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#navtabs. {
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+#leftForm {
+    margin-right: 10px;
+}
+
+#rightForm {
+    margin-left: 10px;
+}
+
+#subHeading {
+    margin-bottom: 30px;
+    border-bottom: solid 2px #bbbbbb;
+}
+
+#subHeading1 {
+    margin-bottom: 30px;
+    border-bottom: solid 2px #bbbbbb;
+}
+
+#submitButt {
+    background-color: rgb(43, 136, 255);
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+}
+
+#submitButt2 {
+    background-color: rgb(43, 136, 255);
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    margin-left: 105px;
+}
+
+#foot {
+    padding-top: 40px;
+}
+
+div:last-of-type {
+    margin-bottom: 0;
+}
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+
+}
