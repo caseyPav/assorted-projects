@@ -1,0 +1,49 @@
+git notes 
+
+clone remote
+init local
+
+just use git add --all or git add /mypath
+
+commit message links to jira issue
+
+push pull -u tracks upstream changes only need it first push of a init repo
+
+status!
+
+git log --oneline --decorate --graph 
+
+add commit pull push
+
+dont skip pull
+
+set up git ignore file 
+
+file always called git ignore 
+
+
+git ignore github
+
+
+ask for help removing files from git 
+
+
+
+
+
+
+
+jira etc notes 
+
+
+
+package>class>Method/var 
+
+
+
+
+users stories: who, what, why
+
+
+
+
